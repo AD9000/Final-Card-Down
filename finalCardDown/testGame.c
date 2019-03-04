@@ -1,4 +1,7 @@
 //Author: Atharv Damle (z5232949)
+// This file contains extensive tests to test the Game ADT
+// It can also be used if you change the Game ADT implementation
+// As it is only black box tests.
 
 /*
  * Tests to check:
