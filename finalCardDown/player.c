@@ -1,4 +1,9 @@
-// Author: Atharv Damle (z5232949)
+// Author: Atharv Damle
+// This is a sample player for playing the Final Card Down game.
+// It does not use an AI but could be modified to.
+
+// This one is very simple as it tries to find the first card
+// that can be played and then plays it.
 
 #include <stdlib.h>
 #include "player.h"
