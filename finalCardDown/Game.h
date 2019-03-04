@@ -181,7 +181,7 @@ int isValidMove(Game game, playerMove move);
 
 // ---------------------------------------------------------
 // The following functions must NOT be called by a player
-// You can use the following functions to test your Game ADT 
+// They should only be used to test the Game ADT 
 // ---------------------------------------------------------
 
 // Play the given action for the current player
