@@ -2,8 +2,6 @@
 //
 // This is an implementation of the Card ADT, which represents a single
 // playing card in the game of Final Card-Down.
-//
-// Do not change this file.
 
 #include <assert.h>
 #include <stdlib.h>
@@ -78,8 +76,3 @@ color cardColor(Card card) {
     assert(card != NULL);
     return card->color;
 }
-
-
-// Implement your own functions here, don't forget to make them static!
-
-
