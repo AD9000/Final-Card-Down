@@ -1,9 +1,6 @@
-// The player of Final Card-Down. v1.1.0
-//
-// !!! DO NOT CHANGE THIS FILE !!!
-
-#ifndef PLAYER_H
-#define PLAYER_H
+// The player of Final Card-Down.
+// This is the player ADT. It can be implemented in 
+// different ways to create difficulty settings for the user.
 
 #include "Game.h"
 
@@ -14,5 +11,3 @@
 // If the player's turn is skipped, this funciton is not called for that
 // player.
 playerMove decideMove(Game game);
-
-#endif
