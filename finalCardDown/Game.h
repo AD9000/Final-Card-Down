@@ -1,12 +1,8 @@
-// The game of Final Card-Down. v1.6 (updated 07:50am 09/Oct)
-//
-// !!! DO NOT CHANGE THIS FILE !!!
-
+// The game of Final Card-Down. 
+// This ADT defines the attributes and behaviour of the
+// game and implements rules of the game.
 
 #include "Card.h"
-
-#ifndef GAME_H
-#define GAME_H
 
 #define NUM_PLAYERS 4
 
@@ -227,6 +223,8 @@ int playerCardCount(Game game, int player);
 // This should return this number of points at any point in the game.
 int playerPoints(Game game, int player);
 
+// OTHER HELPER FUNCTIONS (ONLY FOR TESTING)
+
 // Delete later
 //void printGame(Game game);
 
@@ -234,5 +232,3 @@ int playerPoints(Game game, int player);
 // Working so removed
 //Deck createDeck(int deckSize, value values[], color colors[], suit suits[]);
 //Card getCard(Deck head, int n);
-#endif // GAME_H
-
