@@ -1,12 +1,6 @@
-// The playing card interface. v1.1.0
-//
-// !!! DO NOT CHANGE THIS FILE !!!
-//
+// The playing card interface
 // This interface represents a single playing card
 // in the game of Final Card-Down.
-
-#ifndef CARD_H
-#define CARD_H
 
 typedef struct _card *Card;
 
@@ -65,5 +59,3 @@ value cardValue(Card card);
 
 // Get the card's color (RED, BLUE, etc).
 color cardColor(Card card);
-
-#endif // CARD_H
