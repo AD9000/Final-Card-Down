@@ -1,3 +1,11 @@
+// Author: Atharv Damle.
+// This ADT defines all the attributes and behavior of the game.
+// Any player can use this ADT to gather information about the
+// current state of the game and use it to play a card.
+// When the game state changes, it is stored in this ADT.
+
+// Making an AI player or GUI using this file is a great idea!
+
 /*
 Notes: Adding (and removing) cards to a deck
 There are 4 decks or 4 variables that refer to a deck:
@@ -531,7 +539,7 @@ int isValidMove(Game game, playerMove move)
 
 // ---------------------------------------------------------
 // The following functions must NOT be called by a player
-// You can use the following functions to test your Game ADT
+// It should only be used to test the game.
 // ---------------------------------------------------------
 
 // Get nth card from the deck, n=0 means top card from deck
